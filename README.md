@@ -8,7 +8,7 @@ Inspired by -Tech With Tim-
 ## Screenshot
 
 <p align="center">
-  <img src="./src/assets/screenshot.png" width="600" alt="React Movie App Screenshot">
+  <img src="./frontend/src/assets/screenshot.png" width="600" alt="React Movie App Screenshot">
 </p>
 
 ---
