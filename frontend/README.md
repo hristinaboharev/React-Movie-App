@@ -1,16 +1,110 @@
-# React + Vite
+# React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application to browse movies and save your favorite ones. Built with **React**, **React Router DOM**, and **Vite**.
+Inspired by -Tech With Tim-
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Screenshot
 
-## React Compiler
+<p align="center">
+  <img src="./src/assets/screenshot.png" width="600" alt="React Movie App Screenshot">
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+
+frontend/
+├─ src/
+│  ├─ assets/
+│  │   └─ screenshot.png
+│  ├─ components/
+│  │   ├─ MovieCard.jsx
+│  │   └─ NavBar.jsx
+│  ├─ context/
+│  │   └─ MovieContext.jsx
+│  ├─ css/
+│  │   ├─ App.css
+│  │   ├─ Favorites.css
+│  │   ├─ Home.css
+│  │   ├─ Index.css
+│  │   ├─ MovieCard.css
+│  │   └─ NavBar.css
+│  ├─ pages/
+│  │   ├─ Favorites.jsx
+│  │   └─ Home.jsx
+│  ├─ services/
+│  │   └─ api.js
+│  ├─ App.jsx
+│  └─ main.jsx
+├─ public/
+├─ node_modules/
+├─ package.json
+├─ package-lock.json
+├─ vite.config.js
+└─ README.md
+
+```
+
+---
+
+## Features
+
+- Display a list of movies on the Home page
+- Button to add movies to Favorites
+- Navigation between Home and Favorites pages using React Router DOM
+- Simple CSS styling for movie cards and navbar
+
+---
+
+## Technologies
+
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [Vite](https://vitejs.dev/)
+- CSS
+- NPM for package management
+
+---
+
+## Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/react-movie-app.git
+cd react-movie-app/frontend
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open the app in your browser:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 👩‍💻 Author
+
+Hristina Boharev
+
+---
+
+## License
+
+This project is open-source. Feel free to use and modify it.
