@@ -6,7 +6,7 @@ A simple React application to browse movies and save your favorite ones. Built w
 
 ## Screenshot
 
-![React Movie App Screenshot](./assets/screenshot.png)
+![React Movie App Screenshot](./src/assets/screenshot.png)
 
 ---
 
